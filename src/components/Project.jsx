@@ -5,9 +5,10 @@ import Button from "./Button";
 import CardLayout from "./CardLayout";
 import { projects } from "../constants";
 import { Tab, Tabs, useMediaQuery } from "@mui/material";
+import "./loading.css";
 
 const Project = () => {
-  const [modifiedProject, setModifiedProject] = useState(projects);
+  const [modifiedProject, setModifiedProject] = useState(null);
   const [value, setValue] = useState("Node");
   const isNonMobile = useMediaQuery("(min-width:600px)");
   const handleChange = (event, newValue) => {
@@ -16,9 +17,10 @@ const Project = () => {
   useEffect(() => {
     const item = projects.filter((project) => project.category === value);
     setModifiedProject(item);
-  });
-
-  return (
+  }, [value]);
+  return modifiedProject === null ? (
+    <div className="lds-dual-ring relative left-[50%]"></div>
+  ) : (
     <section className={`flex flex-col mt-6 items-center`}>
       <h2
         className={`font-poppins font-semibold text-[24px] text-blue-600 border-b-2`}
@@ -43,7 +45,7 @@ const Project = () => {
         <Tab label="Node.js" value="Node" />
       </Tabs>
       {modifiedProject.map((project, index) => {
-        return <CardLayout key={prasish.id} {...project} index />;
+        return <CardLayout key={project.id} {...project} index />;
       })}
     </section>
   );

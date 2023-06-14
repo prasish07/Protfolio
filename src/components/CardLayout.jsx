@@ -22,7 +22,9 @@ const CardLayout = ({
           <h2 className="font-poppins font-semibold text-[25px] mb-6 sm:text-start text-center">
             {title}
           </h2>
-          <p className={`${styles.paragraph} max-w-[470px]`}>{description}</p>
+          <p className={`${styles.paragraph} max-w-[470px] mb-5`}>
+            {description}
+          </p>
 
           {category === "Node" ? (
             <a href="">
@@ -32,7 +34,7 @@ const CardLayout = ({
               />
             </a>
           ) : (
-            <div className="flex sm:flex-row flex-col mt-4">
+            <div className="flex sm:flex-row flex-col">
               {" "}
               <a href="https://github.com/">
                 <Button

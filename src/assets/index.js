@@ -18,6 +18,7 @@ import ecommerce from "./e-commerce.png";
 import banking from "./banking.png";
 import drink from "./drink-search.png";
 import node from "./node.png";
+import CV from "./CV.pdf";
 
 export {
   dropbox,
@@ -40,4 +41,5 @@ export {
   ecommerce,
   drink,
   node,
+  CV,
 };
