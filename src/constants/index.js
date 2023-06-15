@@ -21,14 +21,9 @@ export const navLinks = [
     goTo: "/",
   },
   {
-    id: "education",
-    title: "Education",
-    goTo: "/education",
-  },
-  {
-    id: "experience",
-    title: "Experience",
-    goTo: "/experience",
+    id: "education&experience",
+    title: "Education & Experience",
+    goTo: "/education&experience",
   },
   {
     id: "about_me",

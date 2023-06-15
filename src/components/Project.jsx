@@ -9,7 +9,7 @@ import "./loading.css";
 
 const Project = () => {
   const [modifiedProject, setModifiedProject] = useState(null);
-  const [value, setValue] = useState("Node");
+  const [value, setValue] = useState("React");
   const isNonMobile = useMediaQuery("(min-width:600px)");
   const handleChange = (event, newValue) => {
     setValue(newValue);
