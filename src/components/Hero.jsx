@@ -41,19 +41,13 @@ const Hero = () => {
               text="Download CV"
             />
           </a> */}
-          <div className="mt-4">
-            <a
-              href={CV}
-              target="_blank"
-              className="btn flex justify-center items-center"
-              rel="noreferrer"
-            >
-              <span>Download CV</span>
-            </a>
-          </div>
         </div>
       </div>
-      <img src={prasish} alt="my image" className="w-[40%] rounded-full" />
+      <img
+        src={prasish}
+        alt="my image"
+        className="sm:w-[40%] w-[70%] rounded-full mt-10"
+      />
     </div>
   );
 };

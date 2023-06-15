@@ -7,8 +7,8 @@ const Error = () => {
     <div className="page">
       <div>
         <h1>404</h1>
-        <h4>page not found</h4>
-        <Link to="/" className="btn">
+        <h4>Page not found</h4>
+        <Link to="/" className="btn2">
           Back Home
         </Link>
       </div>

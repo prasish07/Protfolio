@@ -19,6 +19,11 @@ import banking from "./banking.png";
 import drink from "./drink-search.png";
 import node from "./node.png";
 import CV from "./CV.pdf";
+import html from "./html.png";
+import css from "./css.png";
+import javascript from "./javascript.png";
+import react from "./react.png";
+import nodeIcon from "./nodeIcon.png";
 
 export {
   dropbox,
@@ -42,4 +47,9 @@ export {
   drink,
   node,
   CV,
+  html,
+  css,
+  javascript,
+  react,
+  nodeIcon,
 };

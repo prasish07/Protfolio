@@ -23,7 +23,7 @@ const Project = () => {
   ) : (
     <section className={`flex flex-col mt-6 items-center`}>
       <h2
-        className={`font-poppins font-semibold text-[24px] text-blue-600 border-b-2`}
+        className={`font-poppins font-semibold sm:text-[40px] text-[24px] text-blue-600 border-b-2`}
       >
         Projects
       </h2>

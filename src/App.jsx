@@ -5,6 +5,8 @@ import styles from "./style";
 import Home from "./Pages/Home";
 import Footer from "./components/Footer";
 import Error from "./Pages/Error";
+import Aboutme from "./Pages/Aboutme";
+import Contact from "./Pages/Contact";
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
         <Routes>
           <Route path="*" element={<Error />} />
           <Route path="/" element={<Home />} />
+          <Route path="/about_me" element={<Aboutme />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <div className={`${styles.flexStart} bg-gray-600 ${styles.paddingX}`}>
           <div className={styles.boxWidth}>

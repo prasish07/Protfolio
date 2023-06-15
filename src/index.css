@@ -146,5 +146,5 @@
 }
 
 .filter-white:hover {
-  filter: brightness(0) invert(1) grayscale(1);
+  filter: brightness(0.95) invert(0.1) grayscale(1);
 }

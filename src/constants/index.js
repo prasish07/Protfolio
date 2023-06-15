@@ -7,6 +7,11 @@ import {
   facebook,
   twitter,
   linkedin,
+  html,
+  css,
+  javascript,
+  react,
+  nodeIcon,
 } from "../assets";
 
 export const navLinks = [
@@ -141,5 +146,33 @@ export const socialMedia = [
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
+  },
+];
+
+export const skills = [
+  {
+    id: 1,
+    name: "HTML",
+    icon: html,
+  },
+  {
+    id: 1,
+    name: "CSS",
+    icon: css,
+  },
+  {
+    id: 1,
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    id: 1,
+    name: "React",
+    icon: react,
+  },
+  {
+    id: 1,
+    name: "Node",
+    icon: nodeIcon,
   },
 ];
