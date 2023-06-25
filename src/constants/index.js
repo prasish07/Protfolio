@@ -172,3 +172,29 @@ export const skills = [
     icon: nodeIcon,
   },
 ];
+
+export const education = [
+  {
+    id: 1,
+    degree: "Bsc(hons) Computer Science",
+    university: "Affiliated University of Wolverhamptom",
+    year: "2022 - present",
+    college: "Herald collage, Kathmandu",
+  },
+  {
+    id: 2,
+    degree: "Plus two",
+    university: "Tribhuvan University",
+    year: "2019-2021",
+    college: "Khwopa college",
+  },
+];
+export const experience = [
+  {
+    id: 1,
+    company: "Development Platform",
+    college: "Herald College, Kathmandu",
+    Role: "Backend Developer",
+    year: "2023 - present",
+  },
+];

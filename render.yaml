@@ -3,7 +3,7 @@ services:
     name: protfolio
     env: static
     buildCommand: npm run build
-    staticPublishPath: ./build
+    staticPublishPath: ./dist
     rewrites:
       - source: /.*
         destination: /index.html
