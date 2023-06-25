@@ -8,12 +8,13 @@ const Contact = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
-  const [website, setWebsite] = useState("");
+  const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
+
+    alert("Thank you for contacting me!!!");
   };
   return (
     <div className={`${styles.flexStart} ${styles.paddingX}`}>
@@ -62,8 +63,8 @@ const Contact = () => {
                 <input
                   type="phone"
                   required
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
                 />
                 <div className="underline"></div>
                 <label>Phone number</label>
@@ -84,10 +85,12 @@ const Contact = () => {
               </div>
             </div>
             <div className="mt-4 flex justify-center">
-              <Button
-                styles="bg-blue-200 w-[150px] h-[40px] flex justify-center items-center"
-                text="Submit"
-              />
+              <button
+                type="submit"
+                className={`py-4 px-6 font-poppins font-medium text-[18px] outline-none bg-black rounded-xl text-white`}
+              >
+                Submit
+              </button>
             </div>
           </form>
         </div>
