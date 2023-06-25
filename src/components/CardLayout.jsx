@@ -22,7 +22,7 @@ const CardLayout = ({
           <h2 className="font-poppins font-semibold text-[25px] mb-6 sm:text-start text-center">
             {title}
           </h2>
-          <p className={`${styles.paragraph} max-w-[470px] mb-5`}>
+          <p className={`${styles.paragraph} max-w-[470px] mb-5 text-justify`}>
             {description}
           </p>
 

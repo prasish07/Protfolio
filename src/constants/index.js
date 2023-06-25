@@ -43,8 +43,9 @@ export const projects = [
     id: "project1",
     category: "React",
     title: "E-commerce website",
-    description:
-      "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+    description: `
+      This website offers a seamless shopping experience for users and efficient management capabilities for administrators. Users can easily view a wide range of products and access detailed information about each item.The website's user interface is intuitive and user-friendly, allowing customers to add products to their cart with just a few clicks. They can proceed to the checkout process smoothly and securely.
+      `,
     image: ecommerce,
     github_link:
       "https://github.com/prasish07/Client-side-e-commerece-website-.git",
@@ -55,7 +56,7 @@ export const projects = [
     category: "React",
     title: "Banking website",
     description:
-      "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+      "This is a preview of a contemporary banking website developed using React and Tailwind CSS. The objective was to create a cutting-edge website that embodies the essence of a banking company in a modern context.",
     image: banking,
     github_link: "https://github.com/prasish07/Banking-website-",
     live_website: "https://banking009.netlify.app/",
@@ -65,7 +66,7 @@ export const projects = [
     category: "React",
     title: "Drink website",
     description:
-      "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+      "This is a compact website designed for browsing various drinks. The website was developed using React.js, aiming to provide an engaging user experience while exploring different beverage options.",
     image: drink,
     github_link: "https://github.com/prasish07",
     live_website: "https://react-project-cocktail-drinksearch.netlify.app/",
@@ -75,7 +76,7 @@ export const projects = [
     category: "Node",
     title: "Job API",
     description:
-      "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+      "This API incorporates CRUD operations for job management, alongside robust authentication and authorization mechanisms.",
     image: node,
     github_link: "https://github.com/prasish07/job-API.git",
     live_website: "live.com",
@@ -85,7 +86,7 @@ export const projects = [
     category: "Node",
     title: "E-commerece API",
     description:
-      "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+      "The project is a hosted e-commerce API developed using the MERN stack. It includes features such as user authentication and authorization, CRUD operations for jobs, and integration with MongoDB for database management. The API offers routes for user registration, login, and logout, as well as routes for managing products, reviews, and orders. The project also implements security measures like rate limiting, helmet, and XSS protection. It has been deployed on Heroku for easy access and scalability.",
     image: node,
     github_link: "https://github.com/prasish07/Server-Side-e-commerce-API-.git",
     live_website: "live.com",
@@ -95,19 +96,9 @@ export const projects = [
     category: "Node",
     title: "Payment API",
     description:
-      "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+      "This project has simple register, signin operation to make the payment for a website. This allow only authenticated user to make the payment",
     image: node,
     github_link: "https://github.com/prasish07/payment-api.git",
-    live_website: "live.com",
-  },
-  {
-    id: "project4",
-    category: "Node",
-    title: "Task management API",
-    description:
-      "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
-    image: node,
-    github_link: "https://github.com/prasish07/Task-manager_API.git",
     live_website: "live.com",
   },
   {
@@ -115,7 +106,7 @@ export const projects = [
     category: "Node",
     title: "Records API",
     description:
-      "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+      "This API is built with Node.js and MySQL, utilizing Sequelize as the ORM for performing CRUD operations on the database. It incorporates data validation using the Zod library, ensuring the integrity of the data. Additionally, unit testing has been implemented to ensure the reliability and functionality of the API.",
     image: node,
     github_link: "https://github.com/prasish07/Records.git",
     live_website: "live.com",
