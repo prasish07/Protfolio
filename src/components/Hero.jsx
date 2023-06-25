@@ -26,15 +26,26 @@ const Hero = () => {
           I use a creative approach to solve problems.
         </p>
         <div className="flex flex-row flex-wrap sm:items-start items-center">
-          <Button
-            styles="bg-blue-gradient w-[120px] h-[40px] flex justify-center items-center mr-6  mt-4"
-            text="Linkedin"
-          />
-
-          <Button
-            styles="bg-black w-[120px] h-[40px] flex justify-center items-center mr-6 text-white  mt-4"
-            text="GitHub"
-          />
+          <a
+            href="https://www.linkedin.com/in/prasish-shrestha-8b5336237/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button
+              styles="bg-blue-gradient w-[120px] h-[40px] flex justify-center items-center mr-6  mt-4"
+              text="Linkedin"
+            />
+          </a>
+          <a
+            href="https://github.com/prasish07"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button
+              styles="bg-black w-[120px] h-[40px] flex justify-center items-center mr-6 text-white  mt-4"
+              text="GitHub"
+            />
+          </a>
           {/* <a href={CV} target="_blank" rel="noreferrer">
             <Button
               styles="bg-green-300 w-[175px] h-[40px] flex justify-center items-center mr-6 sm:mt-0 mt-6"

@@ -46,8 +46,9 @@ export const projects = [
     description:
       "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
     image: ecommerce,
-    github_link: "github.com",
-    live_website: "live.com",
+    github_link:
+      "https://github.com/prasish07/Client-side-e-commerece-website-.git",
+    live_website: "https://e-commerce-0990.onrender.com",
   },
   {
     id: "project2",
@@ -56,8 +57,8 @@ export const projects = [
     description:
       "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
     image: banking,
-    github_link: "github.com",
-    live_website: "live.com",
+    github_link: "https://github.com/prasish07/Banking-website-",
+    live_website: "https://banking009.netlify.app/",
   },
   {
     id: "project3",
@@ -66,18 +67,8 @@ export const projects = [
     description:
       "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
     image: drink,
-    github_link: "github.com",
-    live_website: "live.com",
-  },
-  {
-    id: "project4",
-    category: "Node",
-    title: "Task management API",
-    description:
-      "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
-    image: node,
-    github_link: "github.com",
-    live_website: "live.com",
+    github_link: "https://github.com/prasish07",
+    live_website: "https://react-project-cocktail-drinksearch.netlify.app/",
   },
   {
     id: "project5",
@@ -86,7 +77,7 @@ export const projects = [
     description:
       "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
     image: node,
-    github_link: "github.com",
+    github_link: "https://github.com/prasish07/job-API.git",
     live_website: "live.com",
   },
   {
@@ -96,7 +87,7 @@ export const projects = [
     description:
       "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
     image: node,
-    github_link: "github.com",
+    github_link: "https://github.com/prasish07/Server-Side-e-commerce-API-.git",
     live_website: "live.com",
   },
   {
@@ -106,17 +97,27 @@ export const projects = [
     description:
       "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
     image: node,
-    github_link: "github.com",
+    github_link: "https://github.com/prasish07/payment-api.git",
+    live_website: "live.com",
+  },
+  {
+    id: "project4",
+    category: "Node",
+    title: "Task management API",
+    description:
+      "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+    image: node,
+    github_link: "https://github.com/prasish07/Task-manager_API.git",
     live_website: "live.com",
   },
   {
     id: "project8",
     category: "Node",
-    title: "Book API",
+    title: "Records API",
     description:
       "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
     image: node,
-    github_link: "github.com",
+    github_link: "https://github.com/prasish07/Records.git",
     live_website: "live.com",
   },
 ];
@@ -125,22 +126,22 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/prasish_07/",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/profile.php?id=100009284236842",
   },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
+  // {
+  //   id: "social-media-3",
+  //   icon: twitter,
+  //   link: "https://www.twitter.com/",
+  // },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/prasish-shrestha-8b5336237/",
   },
 ];
 

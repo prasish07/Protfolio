@@ -11,7 +11,7 @@ const CardLayout = ({
   description,
   image,
   github_link,
-  live_link,
+  live_website,
 }) => {
   return (
     <div className="flex flex-col sm:w-[80%] w-full justify-center">
@@ -27,7 +27,7 @@ const CardLayout = ({
           </p>
 
           {category === "Node" ? (
-            <a href="">
+            <a href={github_link} target="_blank" rel="noreferrer">
               <Button
                 styles="mt-4 bg-blue-400 w-full sm:w-[170px] h-[50px] flex justify-center items-center"
                 text="Source code"
@@ -36,13 +36,13 @@ const CardLayout = ({
           ) : (
             <div className="flex sm:flex-row flex-col">
               {" "}
-              <a href="https://github.com/">
+              <a href={live_website} target="_blank" rel="noreferrer">
                 <Button
                   styles="mt-4 bg-green-400 w-full sm:w-[170px] h-[50px] flex justify-center items-center mb-2 sm:mb-0 sm:mr-4"
                   text="Live site"
                 />
               </a>
-              <a href="">
+              <a href={github_link} target="_blank" rel="noreferrer">
                 <Button
                   styles="mt-4 bg-blue-400 w-full sm:w-[170px] h-[50px] flex justify-center items-center"
                   text="Source code"

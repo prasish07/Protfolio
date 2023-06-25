@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Error from "./Pages/Error";
 import Aboutme from "./Pages/Aboutme";
 import Contact from "./Pages/Contact";
+import Edu_Exp from "./Pages/Edu_Exp";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Routes>
           <Route path="*" element={<Error />} />
           <Route path="/" element={<Home />} />
+          <Route path="/education&experience" element={<Edu_Exp />} />
           <Route path="/about_me" element={<Aboutme />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
