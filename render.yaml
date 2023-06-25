@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: protfolio
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: ./build
+    rewrites:
+      - source: /.*
+        destination: /index.html
