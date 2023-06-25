@@ -10,7 +10,10 @@ const Narbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="w-full flex py-6 justify-between items-center  navbar">
-      <h2 className="font-poppins font-semibold text-black">
+      <h2
+        className="font-poppins font-semibold text-black cursor-pointer"
+        onClick={() => navigate("/")}
+      >
         Prasish Shrestha
       </h2>
 
@@ -54,7 +57,9 @@ const Narbar = () => {
                     index === navLinks.length - 1 ? "mb-0" : "mb-4"
                   } `}
                 >
-                  <a href={`#${item.id}`}>{item.title}</a>
+                  <a href="" onClick={() => navigate(item.goTo)}>
+                    {item.title}
+                  </a>
                 </li>
               );
             })}

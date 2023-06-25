@@ -9,14 +9,20 @@ const Footer = () => {
       </p>
       <div className="flex flex-row md:mt-0 mt-6">
         {socialMedia.map((social, i) => (
-          <img
-            src={social.icon}
-            alt="icons"
+          <a
+            href={social.link}
             key={social.id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
-              i === socialMedia.length - 1 ? "mr-0" : "mr-6"
-            }`}
-          />
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={social.icon}
+              alt="icons"
+              className={`w-[21px] h-[21px] object-contain cursor-pointer ${
+                i === socialMedia.length - 1 ? "mr-0" : "mr-6"
+              }`}
+            />
+          </a>
         ))}
       </div>
     </div>
