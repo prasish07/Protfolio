@@ -1,7 +1,5 @@
-import React from "react";
 import styles, { layout } from "../style";
 import { CV, prasish } from "../assets";
-import Button from "../components/Button";
 
 const Aboutme = () => {
 	return (

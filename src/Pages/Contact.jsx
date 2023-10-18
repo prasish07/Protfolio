@@ -1,8 +1,6 @@
-import React from "react";
 import styles from "../style";
 import { useState } from "react";
 import "./contact.css";
-import Button from "../components/Button";
 
 const Contact = () => {
 	const [firstName, setFirstName] = useState("");
